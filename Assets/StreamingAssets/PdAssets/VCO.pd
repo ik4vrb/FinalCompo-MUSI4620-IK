@@ -1,4 +1,4 @@
-#N canvas 689 52 908 859 12;
+#N canvas 562 52 908 859 12;
 #X declare -path Abstractions;
 #X obj -82 -43 notein;
 #X obj -82 -6 mtof;
@@ -29,7 +29,7 @@
 #X obj 29 -13 / 127;
 #X obj -65 153 *~;
 #X obj -60 281 dac~;
-#X obj -65 129 phasor~;
+#X obj -65 129 saw~;
 #X connect 0 0 1 0;
 #X connect 0 1 7 0;
 #X connect 1 0 11 0;
